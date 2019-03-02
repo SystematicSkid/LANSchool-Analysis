@@ -49,5 +49,5 @@ This project is purely proof-of-concept and for educational uses only.
 - [stevemk14ebr - PolyHook](https://github.com/stevemk14ebr)
 
 #### Even big companies have spelling errors... Here's a couple:
-> Received a CursorInfo before we finished the last frame. I'm confuessd
-> Teacher Unknonw when attempting to set SSPI state to TeacherAuthenticated
+>> Received a CursorInfo before we finished the last frame. I'm confuessd
+>> Teacher Unknonw when attempting to set SSPI state to TeacherAuthenticated
