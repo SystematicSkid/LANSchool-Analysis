@@ -36,5 +36,10 @@ namespace LANSchool
 				break;
 			}
 		}
+
+		void SetChannel(int channel)
+		{
+			*(int*)Internal::addresses.student_current_channel = channel;
+		}
 	}
 }

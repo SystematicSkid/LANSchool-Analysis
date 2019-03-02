@@ -20,6 +20,8 @@ namespace Internal
 		XASSERT(student_peek_desktop_update_rate);
 		student_is_streaming_desktop = (Memory::SigScan(XorStr("8B 0D ? ? ? ? 85 C9 0F 84 ? ? ? ? 8B 11"), XorStr("student.exe")) + 1);
 		XASSERT(student_is_streaming_desktop);
+		student_current_channel = (Memory::SigScan(XorStr("A3 ? ? ? ? 84 05 ? ? ? ?"), XorStr("student.exe")) + 1);
+		XASSERT(student_current_channel);
 
 		return true;
 	}

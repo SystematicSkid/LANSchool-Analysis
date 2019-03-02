@@ -42,5 +42,7 @@ namespace LANSchool
 	namespace Student
 	{
 		HANDLE CloseLskWebSvr();
+		void BypassMessage(MessageType msg);
+		void SetChannel(int channel);
 	}
 }
