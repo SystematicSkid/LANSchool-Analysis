@@ -7,6 +7,7 @@ namespace Internal
 
 	using tAlertBadWord = BOOL(__fastcall*)(int arglist);
 	using tClearStudentDesktop = void*(__cdecl*)(int flags);
+	using tNewDesktopDetected = bool(__stdcall*)(int a1);
 
 	namespace WinSock
 	{
@@ -18,6 +19,7 @@ namespace Internal
 	{
 		BOOL __fastcall hkAlertBadWord(int arglist);
 		void* __cdecl hkClearStudentDesktop(int flags);
+		bool __stdcall hkNewDesktopDetected(int a1);
 	}
 
 	class Hooks

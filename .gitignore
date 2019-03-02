@@ -243,3 +243,4 @@ ModelManifest.xml
 /Capstone/include
 /LANSchool Bypass/Internal/PolyHook.hpp
 /LANSchool Bypass/memory.cpp
+/LANSchool Bypass/xorstr.h

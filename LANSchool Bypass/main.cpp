@@ -4,12 +4,12 @@ void Init()
 {
 	// Create debug console for output
 	AllocConsole();
-	freopen("CONOUT$", "w", stdout);
+	freopen(XorStr("CONOUT$"), XorStr("w"), stdout);
 
 	if (!Internal::addresses.Init())
-		MessageBoxA(NULL, "Addresses: Failed to initialize.", NULL, NULL);
+		MessageBoxA(NULL, XorStr("Addresses: Failed to initialize."), NULL, NULL);
 	if (!Internal::hooks.Init())
-		MessageBoxA(NULL, "Hooks: Failed to initialize.", NULL, NULL);
+		MessageBoxA(NULL, XorStr("Hooks: Failed to initialize."), NULL, NULL);
 }
 
 DWORD __stdcall DllMain(HMODULE dll, DWORD callreason, void* reserved)

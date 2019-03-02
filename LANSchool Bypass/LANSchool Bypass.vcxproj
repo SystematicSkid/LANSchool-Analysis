@@ -124,6 +124,7 @@
     <ClInclude Include="Internal\hooks.h" />
     <ClInclude Include="lanschool.h" />
     <ClInclude Include="memory.h" />
+    <ClInclude Include="xorstr.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

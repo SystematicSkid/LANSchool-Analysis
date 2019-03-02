@@ -50,5 +50,8 @@
     <ClInclude Include="memory.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

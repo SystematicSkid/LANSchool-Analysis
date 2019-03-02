@@ -29,6 +29,7 @@
 
 // util
 #include "memory.h"
+#include "xorstr.h"
 
 // core
 #include "./Internal/addresses.h"
