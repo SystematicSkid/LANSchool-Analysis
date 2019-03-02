@@ -240,3 +240,6 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/Capstone/include
+/LANSchool Bypass/Internal/PolyHook.hpp
+/LANSchool Bypass/memory.cpp
