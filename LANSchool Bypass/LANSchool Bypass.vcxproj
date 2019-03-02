@@ -120,6 +120,8 @@
     <ClCompile Include="memory.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Classes\student.h" />
+    <ClInclude Include="Classes\teacher.h" />
     <ClInclude Include="enums.h" />
     <ClInclude Include="Internal\addresses.h" />
     <ClInclude Include="Internal\hooks.h" />

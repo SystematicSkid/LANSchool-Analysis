@@ -41,5 +41,10 @@ namespace LANSchool
 		{
 			*(int*)Internal::addresses.student_current_channel = channel;
 		}
+
+		Teacher* GetTeacher()
+		{
+			return Internal::addresses.student_current_teacher;
+		}
 	}
 }

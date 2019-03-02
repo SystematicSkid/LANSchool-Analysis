@@ -31,6 +31,10 @@
 #include "memory.h"
 #include "xorstr.h"
 
+// sdk
+#include "./Classes/teacher.h"
+#include "./Classes/student.h"
+
 // core
 #include "./Internal/addresses.h"
 #include "./Internal/hooks.h"
@@ -44,5 +48,6 @@ namespace LANSchool
 		HANDLE CloseLskWebSvr();
 		void BypassMessage(MessageType msg);
 		void SetChannel(int channel);
+		Teacher* GetTeacher();
 	}
 }

@@ -31,6 +31,7 @@ namespace Internal
 		uintptr_t	student_peek_desktop_update_rate;
 		uintptr_t	student_is_streaming_desktop;
 		uintptr_t	student_current_channel;
+		Teacher*	student_current_teacher;
 
 	};
 	extern Addresses addresses;

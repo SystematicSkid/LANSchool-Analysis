@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Internal">
       <UniqueIdentifier>{59f87c70-d56a-4820-bc7d-bb20a0139ed0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Classes">
+      <UniqueIdentifier>{3e20b82d-b38c-4743-88c2-e1c289ab75d6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -55,6 +58,12 @@
     </ClInclude>
     <ClInclude Include="enums.h">
       <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\student.h">
+      <Filter>Resource Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\teacher.h">
+      <Filter>Resource Files\Classes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

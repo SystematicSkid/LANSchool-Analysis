@@ -22,6 +22,8 @@ namespace Internal
 		XASSERT(student_is_streaming_desktop);
 		student_current_channel = (Memory::SigScan(XorStr("A3 ? ? ? ? 84 05 ? ? ? ?"), XorStr("student.exe")) + 1);
 		XASSERT(student_current_channel);
+		student_current_teacher = *(Teacher**)(Memory::SigScan(XorStr("A1 ? ? ? ? 89 85 ? ? ? ? 8B 0D ? ? ? ? 89 8D ? ? ? ? 83 C7 2C"), XorStr("student.exe")) + 1);
+		XASSERT(student_current_teacher);
 
 		return true;
 	}
