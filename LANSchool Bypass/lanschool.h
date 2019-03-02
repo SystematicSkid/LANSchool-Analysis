@@ -35,6 +35,8 @@
 #include "./Internal/addresses.h"
 #include "./Internal/hooks.h"
 
+#include "enums.h"
+
 namespace LANSchool
 {
 	namespace Student

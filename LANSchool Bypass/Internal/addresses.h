@@ -28,6 +28,9 @@ namespace Internal
 		uintptr_t	student_set_registry_value;
 		uintptr_t	student_set_teacher_sspi_state;
 
+		uintptr_t	student_peek_desktop_update_rate;
+		uintptr_t	student_is_streaming_desktop;
+
 	};
 	extern Addresses addresses;
 }
