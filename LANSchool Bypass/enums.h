@@ -10,6 +10,5 @@ enum PeekType
 
 enum MessageType
 {
-	MSGTYPE_AUTHENTICATION = 115,
-
+	MSGTYPE_AUTHENTICATION = 115
 };

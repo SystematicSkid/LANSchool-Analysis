@@ -28,6 +28,13 @@ namespace Internal
 		int __stdcall hkRecv(SOCKET s, char * buf, int len, int flags)
 		{
 			printf(XorStr("[hkRecv] %s\n"), buf);
+			/*
+			KeystrokeHistoryRequest: len 10
+									 flags: 0
+									 socket: fnSocket(2,1,6)
+									 buf: *(_WORD *)buf = 0x360;
+										  *(_WORD *)&buff[2] = dword_67EFDC;		--> teacher.exe
+			*/
 			return oRecv(s, buf, len, flags);
 		}
 	}

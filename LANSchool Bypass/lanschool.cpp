@@ -46,5 +46,13 @@ namespace LANSchool
 		{
 			return Internal::addresses.student_current_teacher;
 		}
+
+		SOCKET GetTeacherSocket()
+		{
+			uintptr_t* pCurrentSession = Internal::addresses.student_psession[3];
+			if (!pCurrentSession)
+				return NULL;
+			return *(SOCKET*)(pCurrentSession + 0x4);
+		}
 	}
 }

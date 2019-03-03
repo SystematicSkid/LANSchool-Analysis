@@ -22,3 +22,8 @@ DWORD __stdcall DllMain(HMODULE dll, DWORD callreason, void* reserved)
 
 	return 0;
 }
+
+const char* strfunction()
+{
+	return "string";
+}

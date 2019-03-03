@@ -32,6 +32,7 @@ namespace Internal
 		uintptr_t	student_is_streaming_desktop;
 		uintptr_t	student_current_channel;
 		Teacher*	student_current_teacher;
+		uintptr_t**	student_psession;
 
 	};
 	extern Addresses addresses;
