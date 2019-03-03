@@ -34,6 +34,7 @@
 // sdk
 #include "./Classes/teacher.h"
 #include "./Classes/student.h"
+#include "./Classes/studentinfo.h"
 
 // core
 #include "./Internal/addresses.h"
